@@ -8,7 +8,7 @@ Como primer paso descargamos [ollama] (HTTPS://ollama.com/download/linux) de su 
 
 ....bash
 
-$:curl -fsSL HTTPS://ollama.com/install.sh | sh
+curl -fsSL HTTPS://ollama.com/install.sh | sh
 
 
 # 2. Ejecutar el servidor 
