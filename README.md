@@ -48,13 +48,16 @@ post /api/generate
 
 curl -X POST http://localhost:11434/api/generate -d '{"model":"tinyllama","prompt": "why is the sky blue?"}'
 
+
 para que la salida la alamcene en un archivo y ver la cantidad de tokens(mode stream)
 
 curl -X POST http://localhost:11434/api/generate -d '{"model":"tinyllama","prompt": "why is the sky blue?"}' -o salida.md
 
+
 para que la salida se entrege completa y no por tokens
 
 curl -X POST http://localhost:11434/api/generate -d '{"model":"tinyllama","prompt": "why is the sky blue?", "stream": false}' -o salida.md
+
 
 # 5. guardar informacion de git
 
@@ -66,5 +69,7 @@ git push origin
 # Webgrafia
 
 [ejemplo de readme.md] (HTTPS://github.com/salvadorhm/introduccion_iq_generarivs/wiki)
+
 [Introducción ollama ] (https://github.com/salvadorhm/introduccion_ia_generativa/wiki/3.-Introduccion-a-Ollama)
+
 [documentación de API ollama] (https://github.com/ollama/ollama/blob/main/docs/api.md)
