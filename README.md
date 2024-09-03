@@ -63,7 +63,7 @@ git commit -m "UPDATED README.md"
 git push origin
 
 
-#webgrafia
+# Webgrafia
 
 [ejemplo de readme.md] (HTTPS://github.com/salvadorhm/introduccion_iq_generarivs/wiki)
 [Introducción ollama ] (https://github.com/salvadorhm/introduccion_ia_generativa/wiki/3.-Introduccion-a-Ollama)
