@@ -2,17 +2,16 @@
 
 Repositorio de proyecto de trabajo con modelos de lenguaje largo usando ollama
 
-
-
 # 1.  Instalación 
 
 Como primer paso descargamos [ollama] (HTTPS://ollama.com/download/linux) de su pagina web, y ejecutamos el siguiente comando
 
 ....bash
+
 $:curl -fsSL HTTPS://ollama.com/install.sh | sh
 
 
-#2. Ejecutar el servidor 
+# 2. Ejecutar el servidor 
 
 ejecutar el servidor de API rest de ollama con el siguiente comando
 
@@ -20,7 +19,7 @@ ollama serve
 
 
 
-#3. Descargar un modelo 
+# 3. Descargar un modelo 
 crear una nueva consola para ejecutar lo siguiente 
 
 
@@ -41,7 +40,7 @@ ollama list
 ollama run tinyllama why sky is blue?
 
 
-##4. Realizar un request a la API REST
+# 4. Realizar un request a la API REST
 
 emitir y que me retorne una respuesta (metodo) (/URI"URL") (datos)
 
@@ -57,7 +56,7 @@ para que la salida se entrege completa y no por tokens
 
 curl -X POST http://localhost:11434/api/generate -d '{"model":"tinyllama","prompt": "why is the sky blue?", "stream": false}' -o salida.md
 
-#5. guardar informacion de git
+# 5. guardar informacion de git
 
 git add .
 git commit -m "UPDATED README.md"
